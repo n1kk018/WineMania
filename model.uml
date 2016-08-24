@@ -66,4 +66,13 @@
     <ownedEnd xmi:id="_o5GkMWnvEeatLM99O9QH5w" type="_u99fEGnuEeatLM99O9QH5w" association="_o5GkMGnvEeatLM99O9QH5w"/>
     <ownedEnd xmi:id="_o5GkMmnvEeatLM99O9QH5w" type="_tlkFkGnqEeatLM99O9QH5w" association="_o5GkMGnvEeatLM99O9QH5w"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xMu6YGoHEeamw_GIPN_BXw" name="Consulter historique">
+    <generalization xmi:id="_4K6NcGoHEeamw_GIPN_BXw" general="_YRkcIGntEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_78uSMGoHEeamw_GIPN_BXw" name="Suivre commande">
+    <generalization xmi:id="_-NieQGoHEeamw_GIPN_BXw" general="_YRkcIGntEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_AG1iMGoIEeamw_GIPN_BXw" name="mettre a jour coordonnees">
+    <generalization xmi:id="_JX9vUGoIEeamw_GIPN_BXw" general="_YRkcIGntEeatLM99O9QH5w"/>
+  </packagedElement>
 </uml:Model>
