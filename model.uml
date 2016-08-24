@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SsLsgGnjEeatLM99O9QH5w" name="NewModel">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZGQIwGnqEeatLM99O9QH5w" name="Client">
+    <eAnnotations xmi:id="_ZGQv0GnqEeatLM99O9QH5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_ZGQv0WnqEeatLM99O9QH5w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_aK0kIGnqEeatLM99O9QH5w" name="Administrateur">
+    <eAnnotations xmi:id="_aK1LMGnqEeatLM99O9QH5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_aK1LMWnqEeatLM99O9QH5w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_tlkFkGnqEeatLM99O9QH5w" name="Système bancaire"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7IbNoGnqEeatLM99O9QH5w" name="Commenter un article"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CbxfcGnrEeatLM99O9QH5w" memberEnd="_CdR7UGnrEeatLM99O9QH5w _CdTJcGnrEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_CdR7UGnrEeatLM99O9QH5w" association="_CbxfcGnrEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_CdTJcGnrEeatLM99O9QH5w" type="_7IbNoGnqEeatLM99O9QH5w" association="_CbxfcGnrEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aRhzoGnrEeatLM99O9QH5w" name="Rechercher produit"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_K3vJsGnsEeatLM99O9QH5w" memberEnd="_K3vwwGnsEeatLM99O9QH5w _K3wX0GnsEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_K3vwwGnsEeatLM99O9QH5w" association="_K3vJsGnsEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_K3wX0GnsEeatLM99O9QH5w" type="_aRhzoGnrEeatLM99O9QH5w" association="_K3vJsGnsEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_L-EfoGnsEeatLM99O9QH5w" name="Sélectionner produit">
+    <extend xmi:id="_aN2_IGnsEeatLM99O9QH5w" extendedCase="_aRhzoGnrEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XoOZoGnsEeatLM99O9QH5w" memberEnd="_XoPAsGnsEeatLM99O9QH5w _XoPAsWnsEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_XoPAsGnsEeatLM99O9QH5w" association="_XoOZoGnsEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_XoPAsWnsEeatLM99O9QH5w" type="_L-EfoGnsEeatLM99O9QH5w" association="_XoOZoGnsEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_A4NwEGntEeatLM99O9QH5w" name="Créer un compte">
+    <extend xmi:id="_c1xxsGnuEeatLM99O9QH5w" extendedCase="_VDVwIGnuEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Gpz7QGntEeatLM99O9QH5w" memberEnd="_Gp0iUGntEeatLM99O9QH5w _Gp0iUWntEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_Gp0iUGntEeatLM99O9QH5w" association="_Gpz7QGntEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_Gp0iUWntEeatLM99O9QH5w" type="_A4NwEGntEeatLM99O9QH5w" association="_Gpz7QGntEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RHR_sGntEeatLM99O9QH5w" memberEnd="_RHR_sWntEeatLM99O9QH5w _RHSmwGntEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_RHR_sWntEeatLM99O9QH5w" type="_ZGQIwGnqEeatLM99O9QH5w" association="_RHR_sGntEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_RHSmwGntEeatLM99O9QH5w" type="_7IbNoGnqEeatLM99O9QH5w" association="_RHR_sGntEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SHEBsGntEeatLM99O9QH5w" memberEnd="_SHEBsWntEeatLM99O9QH5w _SHEowGntEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_SHEBsWntEeatLM99O9QH5w" type="_ZGQIwGnqEeatLM99O9QH5w" association="_SHEBsGntEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_SHEowGntEeatLM99O9QH5w" type="_aRhzoGnrEeatLM99O9QH5w" association="_SHEBsGntEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Sy7CIGntEeatLM99O9QH5w" memberEnd="_Sy7CIWntEeatLM99O9QH5w _Sy8QQGntEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_Sy7CIWntEeatLM99O9QH5w" type="_ZGQIwGnqEeatLM99O9QH5w" association="_Sy7CIGntEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_Sy8QQGntEeatLM99O9QH5w" type="_L-EfoGnsEeatLM99O9QH5w" association="_Sy7CIGntEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TfyIIGntEeatLM99O9QH5w" memberEnd="_TfyIIWntEeatLM99O9QH5w _Tf2ZkGntEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_TfyIIWntEeatLM99O9QH5w" type="_ZGQIwGnqEeatLM99O9QH5w" association="_TfyIIGntEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_Tf2ZkGntEeatLM99O9QH5w" type="_A4NwEGntEeatLM99O9QH5w" association="_TfyIIGntEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YRkcIGntEeatLM99O9QH5w" name="Gérer son compte"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bVWWMGntEeatLM99O9QH5w" memberEnd="_bVWWMWntEeatLM99O9QH5w _bVWWMmntEeatLM99O9QH5w">
+    <ownedEnd xmi:id="_bVWWMWntEeatLM99O9QH5w" type="_ZGQIwGnqEeatLM99O9QH5w" association="_bVWWMGntEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_bVWWMmntEeatLM99O9QH5w" type="_YRkcIGntEeatLM99O9QH5w" association="_bVWWMGntEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VDVwIGnuEeatLM99O9QH5w" name="Se connecter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_u99fEGnuEeatLM99O9QH5w" name="Payer commande">
+    <include xmi:id="__tSjIGnuEeatLM99O9QH5w" addition="_VDVwIGnuEeatLM99O9QH5w"/>
+    <include xmi:id="_AW9LMGnvEeatLM99O9QH5w" addition="_L-EfoGnsEeatLM99O9QH5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_o5GkMGnvEeatLM99O9QH5w" visibility="private" memberEnd="_o5GkMWnvEeatLM99O9QH5w _o5GkMmnvEeatLM99O9QH5w" navigableOwnedEnd="_o5GkMmnvEeatLM99O9QH5w">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_o5GkMWnvEeatLM99O9QH5w" type="_u99fEGnuEeatLM99O9QH5w" association="_o5GkMGnvEeatLM99O9QH5w"/>
+    <ownedEnd xmi:id="_o5GkMmnvEeatLM99O9QH5w" type="_tlkFkGnqEeatLM99O9QH5w" association="_o5GkMGnvEeatLM99O9QH5w"/>
+  </packagedElement>
+</uml:Model>
